@@ -13,7 +13,7 @@ const config = {
 
 async function getConnection(){
     try {
-        
+
         const pool = await sql.connect(config);
         return pool;
 
